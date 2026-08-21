@@ -22,7 +22,7 @@ The first two notebooks are fully complete and used for illustrative purposes.
 The last notebook will be used as a starting point for the exercise sessions.
 
 ## Maintainers
-[@adoanTUD](https://github.com/adoanTUD/).
+[@ndoan-icl](https://github.com/ndoan-icl/).
 
 ## License
 
