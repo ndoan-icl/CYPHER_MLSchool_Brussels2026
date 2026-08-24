@@ -4,7 +4,7 @@ This repository contains the hands-on jupyter notebooks for the session on 09/09
 
 This repository contains:
 
-1. [The slides](CYPHER_ML_Course.pdf) presented during the session.
+1. [The slides](Slides/CYPHER_ML_School_2026.pdf) presented during the session.
 2. The various datasets used during the session
 	- The [Lorenz system dataset](Lorenz_data/LorenzSys_Lorenz_data.npz) for the example notebook
 	- The [broadband forcing and heat release rate signals](Flame_data/) for the flame dynamics learning exercise
