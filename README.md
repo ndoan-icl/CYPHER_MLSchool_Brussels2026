@@ -1,6 +1,6 @@
-# CYPHER Training School - Machine Learning Methods for Reacting Flows (09/09/2024-11/09/2024)
+# CYPHER Training School - Scientific Machine Learning Methods for Digital Twins (07/09/2026-09/09/2026)
 
-This repository contains the hands-on jupyter notebooks for the Reduced-Order Modelling II sessions of the CYPHER Training School "Machine Learning Methods for Reacting Flows".
+This repository contains the hands-on jupyter notebooks for the session on 09/09 of the CYPHER Training School "Scientific Machine Learning Methods for Digital Twins".
 
 This repository contains:
 
@@ -12,13 +12,15 @@ This repository contains:
 	- The above data is also provided in a combined [zip](CYPHER_SCHOOL_data.zip) for convenience
 
 ## Description
-The repository contains three different notebooks:
+The repository contains five different notebooks:
 
-1. The [MLP-based Lorenz system notebook](01_MLP_Lorenz.ipynb) where a feedforward neural network is developed to learn the dynamics of the Lorenz system.
-2. The [RNN-based Lorenz system notebook](01_LSTM_Lorenz.ipynb) where a long short-term neural network is developed to learn the dynamics of the Lorenz system.
-3. The [flame dynamics notebook](02_FlameDynamics.ipynb) which describes how to read the flame dynamics dataset.
+1. The 
+2. The [MLP-based Lorenz system notebook](01_MLP_Lorenz.ipynb) where a feedforward neural network is developed to learn the dynamics of the Lorenz system.
+3. The [RNN-based Lorenz system notebook](01_LSTM_Lorenz.ipynb) where a long short-term neural network is developed to learn the dynamics of the Lorenz system.
+4. The ESN-based Lorenz system notebook where an echo state network is developed to learn the dynamics of the Lorenz system.
+5. The [flame dynamics notebook](02_FlameDynamics.ipynb) which describes how to read the flame dynamics dataset.
 
-The first two notebooks are fully complete and used for illustrative purposes.
+The first four notebooks are fully complete and used for illustrative purposes.
 The last notebook will be used as a starting point for the exercise sessions.
 
 ## Maintainers
