@@ -4,12 +4,12 @@ This repository contains the hands-on jupyter notebooks for the session on 09/09
 
 This repository contains:
 
-1. [The slides](Slides/CYPHER_ML_School_2026.pdf) presented during the session.
+1. [The slides](Slides/CYPHER_ML_School_2026.pdf) presented during the session. Slides related to the exercises are available [here](Slides/CYPHER_ML_School_2026_Exercises.pdf).
 2. The various datasets used during the session
-	- The [Lorenz system dataset](Lorenz_data/LorenzSys_Lorenz_data.npz) for the example notebook
+	- The dataset for the System Identification notebook based on a laminar slit flame excited with a broadband signal
+	- The [Lorenz system dataset](Lorenz_data/LorenzSys_Lorenz_data.npz) for the example notebook on the Lorenz system
 	- The [broadband forcing and heat release rate signals](Flame_data/) for the flame dynamics learning exercise
 	- The [validation flame describing functions](Validation_data/Flame_valid_data.h5) containing the frequency response of the flam
-	- The above data is also provided in a combined [zip](CYPHER_SCHOOL_data.zip) for convenience
 
 ## Description
 The repository contains five different notebooks:
