@@ -11,6 +11,20 @@ This repository contains:
 	- The [broadband forcing and heat release rate signals](Flame_data/) for the flame dynamics learning exercise
 	- The [validation flame describing functions](Validation_data/Flame_valid_data.h5) containing the frequency response of the flam
 
+## Installation
+To run the various jupyter notebooks, it is recommended that a virtual environment is created. On linux, create and source the environment by issuing the following command:
+
+```bash
+python3 -m venv cypher
+source cypher/bin/activate
+```
+
+After sourcing a virtual environment, run:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Description
 The repository contains five different notebooks:
 
