@@ -4,8 +4,13 @@ import numpy as np
 import skopt
 from skopt.space import Integer, Real
 
-from esn.esn import ESN
-from esn.utils import errors, reverse_scalers
+use_colab = False
+if use_colab:
+    from CYPHER_MLSchool_Brussels2026.esn.esn import ESN
+    from CYPHER_MLSchool_Brussels2026.esn.utils import errors, reverse_scalers
+else:
+    from esn.esn import ESN
+    from esn.utils import errors, reverse_scalers
 
 
 def set_ESN(my_ESN, param_names, param_scales, params):

@@ -1,8 +1,12 @@
 import numpy as np
 from sklearn.linear_model import Ridge
-
-import esn.generate_input_weights as generate_input_weights
-import esn.generate_reservoir_weights as generate_reservoir_weights
+use_colab = False
+if use_colab:
+    import CYPHER_MLSchool_Brussels2026.esn.generate_input_weights as generate_input_weights
+    import CYPHER_MLSchool_Brussels2026.esn.generate_reservoir_weights as generate_reservoir_weights
+else:
+    import esn.generate_input_weights as generate_input_weights
+    import esn.generate_reservoir_weights as generate_reservoir_weights
 
 class ESN:
     def __init__(
