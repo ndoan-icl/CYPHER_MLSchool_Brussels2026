@@ -9,7 +9,7 @@ This repository contains:
 	- The dataset for the System Identification notebook based on a laminar slit flame excited with a broadband signal
 	- The [Lorenz system dataset](Lorenz_data/LorenzSys_Lorenz_data.npz) for the example notebook on the Lorenz system
 	- The [broadband forcing and heat release rate signals](Flame_data/) for the flame dynamics learning exercise
-	- The [validation flame describing functions](Validation_data/Flame_valid_data.h5) containing the frequency response of the flam
+	- The [validation flame describing functions](Validation_data/Flame_valid_data.h5) containing the frequency response of the flame
 
 ## Installation
 To run the various jupyter notebooks, it is recommended that a virtual environment is created. On linux, create and source the environment by issuing the following command:
@@ -31,7 +31,7 @@ The repository contains five different notebooks:
 1. The [System Identification notebook](01_SystemIdentification.ipynb) which describes how to perform system identification on a flame dynamics dataset under linear excitation. This notebook is from the group of Prof. Polifke at TU Munich. The original version can be found [here](https://gitlab.lrz.de/tfd/system-identification-tutorial/).
 2. The [MLP-based Lorenz system notebook](01_MLP_Lorenz.ipynb) where a feedforward neural network is developed to learn the dynamics of the Lorenz system.
 3. The [RNN-based Lorenz system notebook](01_LSTM_Lorenz.ipynb) where a long short-term neural network is developed to learn the dynamics of the Lorenz system.
-4. The ESN-based Lorenz system notebook where an echo state network is developed to learn the dynamics of the Lorenz system.
+4. The ESN-based Lorenz system notebook where an echo state network is developed to learn the dynamics of the Lorenz system. The original version can be found [here](https://github.com/MagriLab/Tutorials).
 5. The [flame dynamics notebook](05_FlameDynamics.ipynb) which describes how to read the flame dynamics dataset.
 
 
